@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "data-platform-preprod",
+  schema: "stg_car_db",
+  name: "src_top_speeds",
+  description: "Source table detailing the top speed of cars"
+}

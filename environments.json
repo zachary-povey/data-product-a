@@ -1,9 +1,17 @@
 {
-    "environments": [
+  "environments": [
+    {
+      "name": "production",
+      "configOverride": {
+        "defaultDatabase": "data-platform-prod"
+      },
+      "schedules": [
         {
-            "name": "production",
-            "configOverride": {},
-            "gitRef": "master"
+          "name": "Runs the stuff",
+          "cron": "30 */1 * * *"
         }
-    ]
+      ],
+      "gitRef": "master"
+    }
+  ]
 }

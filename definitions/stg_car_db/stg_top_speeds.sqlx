@@ -1,0 +1,8 @@
+config {
+  type: "view",
+  schema: "stg_car_db"
+}
+
+select *
+from 
+  ${ref("src_top_speeds")}
