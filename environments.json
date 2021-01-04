@@ -3,7 +3,7 @@
     {
       "name": "production",
       "configOverride": {
-        "defaultDatabase": "data-platform-prod"
+        "defaultDatabase": "data-platform-prod-300713"
       },
       "schedules": [
         {
