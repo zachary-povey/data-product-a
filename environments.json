@@ -12,6 +12,19 @@
         }
       ],
       "gitRef": "master"
+    },
+    {
+      "name": "CI",
+      "configOverride": {
+        "schemaSuffix": "_CI"
+      },
+      "schedules": [
+        {
+          "name": "new_schedule",
+          "cron": "39 15 * * *"
+        }
+      ],
+      "gitRef": "master"
     }
   ]
 }
